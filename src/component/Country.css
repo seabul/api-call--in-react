@@ -1,0 +1,45 @@
+.country {
+  border: 1px solid #e2e8f0;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #1e293b;
+  text-align: left;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.country:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.1);
+  border-color: #38bdf8;
+}
+
+.country img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+  border: 1px solid #f1f5f9;
+}
+
+.country h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.country p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.country p strong {
+  color: #334155;
+}
